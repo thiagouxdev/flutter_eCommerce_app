@@ -1,4 +1,4 @@
-# app_ecomecei
+# flutter e-Commerce App
 
 A new Flutter project.
 
