@@ -1,55 +1,41 @@
 name: app_ecomecei
 description: "A new Flutter project."
 
-
 publish_to: 'none' 
-
-
-
-
-
-
-
-
-
-
-
-
-
 version: 1.0.0+1
 
 environment:
   sdk: '>=3.4.1 <4.0.0'
 
-
+#---------- PACKAGES ---------#
 dependencies:
   flutter:
     sdk: flutter
 
 
-  
-  
+  # Utility Packges
   cupertino_icons: ^1.0.6
   google_fonts: ^6.2.1
+
+  # State Managment
+  get: ^4.6.5
+
+  # Product Specific
+
+
+  #---------- ./ PACKAGES END ---------#
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
-  
-  
-  
-  
   
   flutter_lints: ^4.0.0
 
 
-
-
-
 flutter:
-
-  
-  
-  
   uses-material-design: true
+  
+  #---------- LOCAL ASSETS ---------#
+  assets:
+    - assets/images/
+    - assets/logos/
