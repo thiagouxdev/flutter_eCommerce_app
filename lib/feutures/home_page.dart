@@ -44,8 +44,9 @@ class _MyHomePageState extends State<MyHomePage> {
                     .headlineSmall
                     ?.copyWith(color: Theme.of(context).colorScheme.primary),
               ),
-              const FilledButton(
-                  onPressed: null, child: Text("FilledButtonCustom"))
+              FilledButton(
+                  onPressed: _incrementCounter,
+                  child: const Text("FilledButtonCustom"))
             ],
           ),
         ),
