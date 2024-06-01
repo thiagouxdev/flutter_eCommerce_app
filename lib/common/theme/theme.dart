@@ -1,5 +1,5 @@
 import 'package:app_ecommerce/common/theme/text_theme.dart';
-import 'package:app_ecommerce/utils/theme/custom_themes/custom_filled_button.dart';
+import 'package:app_ecommerce/common/widgets/custom_filled_button.dart';
 import "package:flutter/material.dart";
 
 class MaterialTheme {
@@ -190,6 +190,7 @@ class MaterialTheme {
   );
 }
 
+// Construtor
 class MaterialScheme {
   const MaterialScheme({
     required this.brightness,
