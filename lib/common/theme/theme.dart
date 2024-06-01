@@ -1,4 +1,4 @@
-import 'package:app_eCommerce/common/theme/text_theme.dart';
+import 'package:app_ecommerce/common/theme/text_theme.dart';
 import "package:flutter/material.dart";
 
 class MaterialTheme {
