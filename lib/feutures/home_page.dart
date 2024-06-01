@@ -34,13 +34,18 @@ class _MyHomePageState extends State<MyHomePage> {
                 style: Theme.of(context).textTheme.headlineLarge,
               ),
               Text(
-                'body You have pushed the button this many times:',
+                'headline You have pushed the button this many times:',
                 style: Theme.of(context).textTheme.bodyLarge,
               ),
               Text(
                 '$_counter',
-                style: Theme.of(context).textTheme.headlineMedium,
+                style: Theme.of(context)
+                    .textTheme
+                    .headlineSmall
+                    ?.copyWith(color: Theme.of(context).colorScheme.primary),
               ),
+              const FilledButton(
+                  onPressed: null, child: Text("FilledButtonCustom"))
             ],
           ),
         ),

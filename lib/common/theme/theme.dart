@@ -1,4 +1,5 @@
 import 'package:app_ecommerce/common/theme/text_theme.dart';
+import 'package:app_ecommerce/utils/theme/custom_themes/custom_filled_button.dart';
 import "package:flutter/material.dart";
 
 class MaterialTheme {
@@ -130,6 +131,8 @@ class MaterialTheme {
         ),
         scaffoldBackgroundColor: colorScheme.surface,
         canvasColor: colorScheme.surface,
+        filledButtonTheme:
+            CustomFilledButton.filledButtonThemeData(colorScheme),
       );
 
   // Sucess
@@ -292,34 +295,40 @@ class MaterialScheme {
 extension MaterialSchemeUtils on MaterialScheme {
   ColorScheme toColorScheme() {
     return ColorScheme(
-      brightness: brightness,
-      primary: primary,
-      surfaceTint: surfaceTint,
-      onPrimary: onPrimary,
-      primaryContainer: primaryContainer,
-      onPrimaryContainer: onPrimaryContainer,
-      secondary: secondary,
-      onSecondary: onSecondary,
-      secondaryContainer: secondaryContainer,
-      onSecondaryContainer: onSecondaryContainer,
-      tertiary: tertiary,
-      onTertiary: onTertiary,
-      tertiaryContainer: tertiaryContainer,
-      onTertiaryContainer: onTertiaryContainer,
-      error: error,
-      onError: onError,
-      errorContainer: errorContainer,
-      onErrorContainer: onErrorContainer,
-      surface: surface,
-      onSurface: onSurface,
-      onSurfaceVariant: onSurfaceVariant,
-      outline: outline,
-      outlineVariant: outlineVariant,
-      shadow: shadow,
-      scrim: scrim,
-      inverseSurface: inverseSurface,
-      inversePrimary: inversePrimary,
-    );
+        brightness: brightness,
+        primary: primary,
+        surfaceTint: surfaceTint,
+        onPrimary: onPrimary,
+        primaryContainer: primaryContainer,
+        onPrimaryContainer: onPrimaryContainer,
+        secondary: secondary,
+        onSecondary: onSecondary,
+        secondaryContainer: secondaryContainer,
+        onSecondaryContainer: onSecondaryContainer,
+        tertiary: tertiary,
+        onTertiary: onTertiary,
+        tertiaryContainer: tertiaryContainer,
+        onTertiaryContainer: onTertiaryContainer,
+        error: error,
+        onError: onError,
+        errorContainer: errorContainer,
+        onErrorContainer: onErrorContainer,
+        surface: surface,
+        onSurface: onSurface,
+        onSurfaceVariant: onSurfaceVariant,
+        outline: outline,
+        outlineVariant: outlineVariant,
+        shadow: shadow,
+        scrim: scrim,
+        inverseSurface: inverseSurface,
+        inversePrimary: inversePrimary,
+        surfaceDim: surfaceDim,
+        surfaceBright: surfaceBright,
+        surfaceContainerLowest: surfaceContainerLowest,
+        surfaceContainerLow: surfaceContainerLow,
+        surfaceContainer: surfaceContainer,
+        surfaceContainerHigh: surfaceContainerHigh,
+        surfaceContainerHighest: surfaceContainerHighest);
   }
 }
 
