@@ -16,9 +16,10 @@ dependencies:
   # Utility Packges
   cupertino_icons: ^1.0.6
   google_fonts: ^6.2.1
+  flutter_native_splash: ^2.4.0
 
-  # State Managment
   get: ^4.6.5
+  # State Managment
 
   # Product Specific
 
