@@ -7,14 +7,13 @@ class SplashScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final imagePath = TImgLogo.getImagePath(context);
     return Scaffold(
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             CustomText.headlineLarge('Splash screen'),
-            ImgLogo(imagePath: imagePath),
+            ImgLogo(imagePath: TImgLogo.getImagePath(context)),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 16),
               child: SizedBox(
