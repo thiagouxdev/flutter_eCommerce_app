@@ -1,5 +1,5 @@
 import 'package:app_ecommerce/common/theme/theme.dart';
-import 'package:app_ecommerce/feutures/home_page.dart';
+import 'package:app_ecommerce/feutures/authentication/page/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: true,
       theme: materialTheme.light(),
       darkTheme: materialTheme.dark(),
-      home: const MyHomePage(),
+      home: const SplashScreen(),
     );
   }
 }
