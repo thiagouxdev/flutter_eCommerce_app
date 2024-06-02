@@ -1,3 +1,4 @@
+import 'package:app_ecommerce/common/widgets/custom_text_field.dart';
 import 'package:flutter/material.dart';
 
 class MyHomePage extends StatefulWidget {
@@ -45,8 +46,12 @@ class _MyHomePageState extends State<MyHomePage> {
                     ?.copyWith(color: Theme.of(context).colorScheme.primary),
               ),
               FilledButton(
-                  onPressed: _incrementCounter,
-                  child: const Text("FilledButtonCustom"))
+                onPressed: _incrementCounter,
+                child: const Text("FilledButtonCustom"),
+              ),
+              const CustomTextField(
+                hintText: "Digite seu cpf",
+              ),
             ],
           ),
         ),
