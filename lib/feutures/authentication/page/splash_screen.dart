@@ -17,8 +17,11 @@ class SplashScreen extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 16),
               child: SizedBox(
-                  child: FilledButton(
-                      onPressed: () {}, child: const Text("Lorem"))),
+                child: FilledButton(
+                  onPressed: () {},
+                  child: const Text("Lorem"),
+                ),
+              ),
             ),
           ],
         ),
